@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - PatIt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> <!-- Google Font -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,34 +14,51 @@
         }
         .container {
             text-align: center;
-            padding: 50px;
+            padding: 0px;
         }
         .cover {
             position: relative;
-            background: url('https://i.imgur.com/4FmcKoe.jpeg') no-repeat center center; 
-            width: 98%; /* Added padding to fit within the white border */
-            height: 40vh; 
+            background: url('https://i.imgur.com/P6Q8Dao.jpeg') no-repeat center center; 
+            width: 100%;
+            height: 45vh; 
             background-size: cover;
             color: #fff;
             margin: 0 auto; /* Center the image */
-            border: 5px solid #fff; /* White frame around the cover */
+            border: 3px solid #fff; /* White frame around the cover */
             border-radius: 5px; /* Optional rounded corners */
-             
+        }
+        .profile-container {
+            position: relative;
+            margin-top: -75px; /* Adjust to bring the profile image closer to the cover */
         }
         .profile-image {
-            position: absolute;
-            top: 110%; /* Adjusted value to move it slightly down */
-            left: 50%;
-            transform: translate(-50%, -50%);
             width: 150px;
             height: 150px;
             border-radius: 50%;
             border: 5px solid #fff;
             background: url('https://imgur.com/fPUkW8C.jpeg') no-repeat center center;
             background-size: cover;
+            margin: 0 auto;
+        }
+        .recipient-name {
+            margin-top: 20px;
+            font-family: 'Montserrat', sans-serif; /* Apply unique font */
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+        .description {
+            margin: 20px auto;
+            font-size: 16px;
+            color: #fff;
+            line-height: 1.5;
+            padding: 0 20px; /* Add padding for mobile view */
+            text-align: left; /* Left-align the text */
+            max-width: 600px; /* Limit the width for better readability */
         }
         .contact-options {
-            margin-top: 50px;
+            margin-top: 40px;
         }
         .contact-options a {
             display: inline-block;
@@ -58,20 +76,35 @@
 </head>
 <body>
     <div class="container">
-        <div class="cover">
+        <div class="cover"></div>
+        <div class="profile-container">
             <div class="profile-image"></div>
+            <div class="recipient-name">Harsh Sharma</div> <!-- Recipient's name -->
+            <div class="description">
+                <strong>Brij Enterprises</strong> specializes in providing a variety of products and services, including:
+                <br><br>
+                <strong>Core Products:</strong> Pallets, wooden packaging and boxes, office merchandise, and goods.
+                <br>
+                <strong>Additional Offerings:</strong> Stationery, computer items, electronics, electrical items, office furniture, accessories, momentos/trophies, and uniforms.
+                <br><br>
+                The company positions itself as a versatile supplier catering to diverse business needs, with a commitment to customer satisfaction.
+            </div>
         </div>
-        <p style="margin-top: 120px;">Select a contact option below:</p>
+        <p style="margin-top: 40px;">Select a contact option below:</p>
         <div class="contact-options">
-            <a href="mailto:patit.nfc@gmail.com">
+            <a href="mailto:brijenterprises28@gmail.com">
                 <img src="https://img.icons8.com/ios/50/000000/gmail.png" alt="Gmail Logo">
                 <div>Email</div>
             </a>
-            <a href="tel:+918269265253">
+            <a href="tel:+919644794547">
                 <img src="https://img.icons8.com/ios/50/000000/phone.png" alt="Call Logo">
                 <div>Call</div>
             </a>
-            <a href="https://wa.me/916264375042" target="_blank">
+           <a href="tel:+918817732338">
+                <img src="https://img.icons8.com/ios/50/000000/phone.png" alt="Call Logo">
+                <div>Call</div>
+            </a>
+            <a href="https://wa.me/919644794547" target="_blank">
                 <img src="https://img.icons8.com/ios/50/000000/whatsapp.png" alt="WhatsApp Logo">
                 <div>WhatsApp</div>
             </a>
